@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .card {
+                border: 2px solid black;
+                width: 50%;
+
+                justify-content: center;
+                align-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <p>
+                Longitude: {{ longitude }} <br>
+                Latitude: {{ latitude }} <br>
+                <br>
+                Time: {{ time }} <br>
+                Wind speed: {{ windspeed }} <br>
+                Wind Direction: {{ winddirection }} <br>
+                Temperature: {{ temp }} <br>
+            </p>
+        </div>
+    </body>
+</html>
